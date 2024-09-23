@@ -1,9 +1,8 @@
+#include <assert.h>
 
 #include "ImBitArray.h"
 
-template <int BITCOUNT, int OFFSET> ImBitArray<BITCOUNT, OFFSET>::ImBitArray() {
-    ClearAllBits();
-}
+#define IM_ASSERT(_EXPR) assert(_EXPR)
 
 template <int BITCOUNT, int OFFSET>
 void ImBitArray<BITCOUNT, OFFSET>::ClearAllBits() {
@@ -13,6 +12,10 @@ void ImBitArray<BITCOUNT, OFFSET>::ClearAllBits() {
 template <int BITCOUNT, int OFFSET>
 void ImBitArray<BITCOUNT, OFFSET>::SetAllBits() {
     memset(Storage, 255, sizeof(Storage));
+}
+
+template <int BITCOUNT, int OFFSET> ImBitArray<BITCOUNT, OFFSET>::ImBitArray() {
+    ClearAllBits();
 }
 
 template <int BITCOUNT, int OFFSET>

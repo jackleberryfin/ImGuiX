@@ -14,3 +14,4 @@ AllowShortBlocksOnASingleLine: false
 NewlineBeforeCatch: true
 NewlineBeforeReturn: true
 SeparateDefinitionBlocks: Always
+ColumnLimit: 125
