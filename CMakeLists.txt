@@ -1,6 +1,9 @@
 cmake_minimum_required(VERSION 3.20)
 project(DearImGui LANGUAGES C CXX)
 
+# Enable LTO link time optimization
+set(CMAKE_INTERPROCEDURAL_OPTIMIZATION ON)
+
 # TODO: Implement cmake toolchain files to handle platform specific configurations (apple/linux/windows)
 
 set(CMAKE_CXX_STANDARD 20)

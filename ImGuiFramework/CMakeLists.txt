@@ -1,4 +1,6 @@
 
+project(ImGuiFramework LANGUAGES C CXX)
+
 add_library(ImGuiFramework SHARED 
     imgui.cpp
     imgui_draw.cpp
@@ -16,3 +18,8 @@ install(TARGETS ImGuiFramework
     LIBRARY DESTINATION lib
     RUNTIME DESTINATION bin
 )
+
+add_subdirectory(BasicTypes)
+add_subdirectory(Drawing)
+add_subdirectory(Font)
+add_subdirectory(Gui)
