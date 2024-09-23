@@ -1,0 +1,16 @@
+BasedOnStyle: LLVM
+PointerAlignment: Left
+ReferenceAlignment: Left
+AlignAfterOpenBracket: true
+AlignOperands: true
+AllowShortCaseLabelsOnASingleLine: true
+AllowShortFunctionsOnASingleLine: Inline
+IndentWidth: 4
+UseTab: Never
+BreakBeforeBraces: Attach  # or Attach if you prefer braces on the same line
+SpaceBeforeParens: ControlStatements
+SpacesInParentheses: false
+AllowShortBlocksOnASingleLine: false
+NewlineBeforeCatch: true
+NewlineBeforeReturn: true
+SeparateDefinitionBlocks: Always

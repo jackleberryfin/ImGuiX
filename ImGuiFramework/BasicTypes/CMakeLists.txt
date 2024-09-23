@@ -1,7 +1,7 @@
 
 
 add_library(BasicTypes OBJECT
-    ImVec4.cpp
+    ImVec2.cpp
 )
 
 target_include_directories(BasicTypes

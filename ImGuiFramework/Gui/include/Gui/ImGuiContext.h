@@ -3,6 +3,7 @@
 #include "Basic/ImTypeDefs.h"
 #include "Basic/ImVector.h"
 #include "Basic/ImVec2.h"
+#include "Basic/ImEnum.h"
 
 #include "Draw/ImDrawListSharedData.h"
 
@@ -21,6 +22,15 @@
 #include "ImGuiStyleMod.h"
 #include "ImGuiFocusScopeData.h"
 #include "ImGuiGroupData.h"
+#include "ImGuiPopupData.h"
+#include "ImGuiTreeNodeStackData.h"
+#include "ImGuiViewportP.h"
+#include "ImGuiPlatformMonitor.h"
+#include "ImGuiNavItemData.h"
+#include "ImGuiPayload.h"
+#include "ImGuiListClipperData.h"
+#include "ImGuiTable.h"
+#include "ImGuiTableTempData.h"
 
 struct ImGuiContext
 {

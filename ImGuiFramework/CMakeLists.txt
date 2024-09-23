@@ -20,6 +20,6 @@ install(TARGETS ImGuiFramework
 )
 
 add_subdirectory(BasicTypes)
-add_subdirectory(Drawing)
-add_subdirectory(Font)
-add_subdirectory(Gui)
+# add_subdirectory(Drawing)
+# add_subdirectory(Font)
+# add_subdirectory(Gui)
