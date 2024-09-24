@@ -22,6 +22,19 @@ if(NOT DEFINED ImguiRenderer_Option)
 endif()
 
 add_subdirectory(ImGuiFramework)
-add_subdirectory(ImGuiPlatforms)
-add_subdirectory(ImGuiRenderers)
-add_subdirectory(ImGuiDemo)
+# add_subdirectory(ImGuiPlatforms)
+# add_subdirectory(ImGuiRenderers)
+# add_subdirectory(ImGuiDemo)
+
+
+
+# Later TODO: 
+# ifdef USE_CONSTEXPR
+# define CONSTEXPR constexpr
+# else
+# define CONSTEXPR
+# endif
+#
+# CONSTEXPR int compute_value(int x) {
+#     return x * x + 1;
+# }
